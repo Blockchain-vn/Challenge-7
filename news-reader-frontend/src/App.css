@@ -1,0 +1,263 @@
+/* General Styles */
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #333;
+  background-color: #f8f9fa;
+}
+
+/* Tuổi Trẻ Header Styles */
+.tuoi-tre-header {
+  width: 100%;
+}
+
+.top-info-bar {
+  background-color: #f8f9fa;
+  border-bottom: 1px solid #e9ecef;
+  font-size: 0.85rem;
+  color: #6c757d;
+}
+
+.tuoi-tre-logo {
+  max-height: 60px;
+  width: auto;
+}
+
+.nav-link-tuoi-tre {
+  font-weight: 600;
+  font-size: 0.9rem;
+  padding: 0.8rem 1rem !important;
+  border-right: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.nav-link-tuoi-tre:first-child {
+  border-left: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* Header Styles */
+.navbar {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+/* Tuổi Trẻ Navbar */
+.navbar-dark.bg-danger {
+  background-color: #e61a1a !important;
+}
+
+/* Category Styles */
+.category-title {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #343a40;
+  margin-bottom: 0.5rem;
+}
+
+.section-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #343a40;
+  position: relative;
+  padding-bottom: 0.5rem;
+}
+
+.section-title::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 50px;
+  height: 3px;
+  background-color: #e61a1a;
+}
+
+/* Tuổi Trẻ Section Styles */
+.section-title-tuoi-tre {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #e61a1a;
+  text-transform: uppercase;
+  border-bottom: 2px solid #e61a1a;
+  padding-bottom: 0.5rem;
+  margin-bottom: 0;
+  display: inline-block;
+}
+
+.section-header {
+  border-bottom: 1px solid #e9ecef;
+  margin-bottom: 1rem;
+}
+
+/* Main Article Styles */
+.main-article-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 1.3;
+  margin-bottom: 0.5rem;
+}
+
+.main-article-summary {
+  color: #6c757d;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+/* Most Read Articles */
+.most-read-item h6 {
+  font-size: 0.9rem;
+  font-weight: 600;
+  line-height: 1.4;
+}
+
+.most-read-number .badge {
+  font-size: 0.8rem;
+  padding: 0.35rem 0.5rem;
+}
+
+/* Carousel Styles */
+.carousel-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+/* Card Styles */
+.card {
+  transition: transform 0.2s, box-shadow 0.2s;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  border: none;
+  border-radius: 0;
+}
+
+.card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.05);
+}
+
+.card-img-top {
+  height: 180px;
+  object-fit: cover;
+  border-radius: 0;
+}
+
+.card-body {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.card-title {
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  font-size: 1rem;
+  line-height: 1.4;
+}
+
+.card-text {
+  color: #6c757d;
+  margin-bottom: 0.5rem;
+  flex-grow: 1;
+  font-size: 0.9rem;
+  line-height: 1.4;
+}
+
+/* Tuổi Trẻ Card Styles */
+.tuoi-tre-card {
+  margin-bottom: 1rem;
+  border-bottom: 1px solid #e9ecef;
+  padding-bottom: 1rem;
+}
+
+.tuoi-tre-card .card-title {
+  font-weight: 700;
+  color: #333;
+}
+
+.tuoi-tre-card .card-img-top {
+  margin-bottom: 0.5rem;
+}
+
+.tuoi-tre-card .btn {
+  display: none;
+}
+
+/* Article Detail Styles */
+.article-header {
+  margin-bottom: 2rem;
+}
+
+.article-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.article-meta {
+  color: #6c757d;
+  margin-bottom: 1rem;
+}
+
+.article-image {
+  width: 100%;
+  max-height: 500px;
+  object-fit: cover;
+  margin-bottom: 2rem;
+  border-radius: 5px;
+}
+
+.article-content {
+  font-size: 1.1rem;
+  line-height: 1.8;
+}
+
+/* Featured Carousel */
+.featured-carousel .carousel-item img {
+  border-radius: 5px;
+}
+
+.featured-carousel .carousel-caption {
+  border-radius: 5px;
+  max-width: 80%;
+  left: 10%;
+  bottom: 20px;
+  text-align: left;
+}
+
+.featured-carousel .carousel-caption h3 {
+  font-weight: 700;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .article-title {
+    font-size: 1.8rem;
+  }
+  
+  .featured-carousel .carousel-caption {
+    position: relative;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    max-width: 100%;
+    background-color: rgba(0, 0, 0, 0.7) !important;
+  }
+  
+  .featured-carousel .carousel-item img {
+    height: 250px !important;
+  }
+}
